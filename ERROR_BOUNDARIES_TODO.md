@@ -16,30 +16,34 @@
 
 ### 3. Fallback UI Patterns
 - [x] Implement basic "Something went wrong" fallback
-- [ ] Create user-friendly error messages
-- [ ] Add retry/reload functionality to fallback UI
+- [x] Create user-friendly error messages with professional styling
+- [x] Add retry/reload functionality to fallback UI
+- [x] Build ErrorFallback component with dev/prod modes
 - [ ] Build different fallback components for different error types
 
 ### 4. Error Logging & Monitoring
 - [x] Log errors to console in development
 - [x] Understand difference between console.error vs console.log for handled errors
-- [ ] Simulate sending errors to external services (Sentry pattern)
-- [ ] Extract useful error information (component stack, error details)
-- [ ] Handle error reporting in production vs development
+- [x] Simulate sending errors to external services (Sentry pattern)
+- [x] Extract useful error information (component stack, error details)
+- [x] Handle error reporting in production vs development
+- [x] Understand React 18 concurrent rendering error behavior
 
 ## Practical Implementation (Hands-on Building)
 
 ### 5. Multiple Error Boundary Levels
-- [ ] Global error boundary (wrap entire app)
-- [ ] Local error boundaries (wrap specific features)
-- [ ] Demonstrate partial UI failure vs complete app failure
-- [ ] Build nested error boundary example
+- [x] Global error boundary (wrap entire app)
+- [x] Local error boundaries (wrap specific features)
+- [x] Demonstrate partial UI failure vs complete app failure
+- [x] Build nested error boundary example
+- [x] Test isolated feature failures (chat widget vs user profile)
 
 ### 6. Testing Error Scenarios
-- [ ] Create BuggyComponent that throws errors on purpose
-- [ ] Build AsyncErrorComponent to show what's NOT caught
-- [ ] Create EventHandlerError to demonstrate event handler limitations
-- [ ] Test error propagation through component tree
+- [x] Create BuggyComponent that throws errors on purpose
+- [x] Build AsyncErrorComponent to show what's NOT caught
+- [x] Create EventHandlerError with try/catch to demonstrate proper handling
+- [x] Test error propagation through component tree
+- [x] Build random error component for testing retry functionality
 
 ### 7. Production Patterns
 - [ ] Environment-specific error handling (dev vs prod)
