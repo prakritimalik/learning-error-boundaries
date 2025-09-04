@@ -3,24 +3,26 @@
 ## Core Fundamentals (30 minutes)
 
 ### 1. Class Component Lifecycle for Error Boundaries
-- [ ] Understand why Error Boundaries must be class components
-- [ ] Learn `static getDerivedStateFromError(error)` - updates state
-- [ ] Learn `componentDidCatch(error, errorInfo)` - logs errors
-- [ ] Build basic ErrorBoundary class component
+- [x] Understand why Error Boundaries must be class components
+- [x] Learn `static getDerivedStateFromError(error)` - updates state
+- [x] Learn `componentDidCatch(error, errorInfo)` - logs errors
+- [x] Build basic ErrorBoundary class component
 
 ### 2. Error Catching Scope
-- [ ] Understand what errors ARE caught (rendering, lifecycle, constructors of children)
-- [ ] Understand what errors are NOT caught (event handlers, async code, server-side)
-- [ ] Build components that demonstrate both scenarios
+- [x] Understand what errors ARE caught (rendering, lifecycle, constructors of children)
+- [x] Understand what errors are NOT caught (event handlers, async code, server-side)
+- [x] Build components that demonstrate both scenarios
+- [x] Learn difference between caught vs uncaught error handling strategies
 
 ### 3. Fallback UI Patterns
-- [ ] Implement basic "Something went wrong" fallback
+- [x] Implement basic "Something went wrong" fallback
 - [ ] Create user-friendly error messages
 - [ ] Add retry/reload functionality to fallback UI
 - [ ] Build different fallback components for different error types
 
 ### 4. Error Logging & Monitoring
-- [ ] Log errors to console in development
+- [x] Log errors to console in development
+- [x] Understand difference between console.error vs console.log for handled errors
 - [ ] Simulate sending errors to external services (Sentry pattern)
 - [ ] Extract useful error information (component stack, error details)
 - [ ] Handle error reporting in production vs development
