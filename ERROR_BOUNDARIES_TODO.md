@@ -99,4 +99,4 @@
 4. **AsyncErrorDemo** - Shows limitations of error boundaries
 5. **ErrorFallback** - User-friendly error UI with retry functionality
 
-**Goal:** Build production-ready error handling that you'd actually use in a real app and can confidently discuss in interviews.
+**Goals:** Build production-ready error handling that you'd actually use in a real app and can confidently discuss in interviews.
